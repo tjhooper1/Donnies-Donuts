@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
+    <link rel="stylesheet" href="/dist/aos.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <a class="navbar-brand" href="/"><img src="./assets/donuts.jpg" alt="logo" style="width: 50px;"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="about-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="gallery">Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" id="contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+    <div class="jumbotron intro" data-aos="zoom-out-up" data-aos-duration="1000">
+        <div class="container">
+          <h1 class="display-1 animated bounceInRight">WELCOME!</h1>
+          <h2 class="animated bounceInLeft" id="intro-h2">To Donnie's Donuts</h2>
+          <p class="lead animated jackInTheBox" id="intro-p">See what we have to offer!</p>
+          <a href="#"><i class="material-icons" id="arrow">keyboard_arrow_down</i></a>
+        </div>
+      </div>    
+      <div class="container section-1">
+        <div class="row">
+          <div class="col-4"></div>
+          <div class="col-4">
+            <img src="./assets/donuts.jpg" alt="logo" width="200px" class="logo" data-aos="flip-up" data-aos-duration="2000">
+          </div>
+          <div class="col-4"></div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h1 class="about text-center" id="about" data-aos="fade" data-aos-delay="600" data-aos-duration="600">About us</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perferendis, repellendus. Soluta ut error aliquid atque sed tempora unde, tenetur optio blanditiis nobis est deserunt vitae rem, obcaecati temporibus laudantium natus.</p>
+          </div>
+        </div>
+      </div>
+      
+    <div class="container" id="gallery">
+      <h1 class="text-center border rounded" data-aos="fade-down-left" data-aos-duration="800" id="gallery-target">GALLERY</h1>
+      <div class="row">
+        <div class="col-sm-4 text-center gallery ">
+          <img class="example z-depth-3" src="./assets/donut-1.jpg" alt="donut-1" style="width: 50%" class="border rounded" data-aos="fade-up" data-aos-delay="700">
+        </div>
+        <div class="col-sm-4 text-center gallery ">
+            <img class="example z-depth-3" src="./assets/donut-2.jpg" alt="donut-1" style="width: 50%" class="border rounded"data-aos="fade-up"data-aos-delay="700">
+          </div>
+        <div class="col-sm-4 text-center rounded gallery ">
+            <img class="example z-depth-3" src="./assets/donut-3.jpg" alt="donut-1" style="width: 50%" class="border rounded"data-aos="fade-up"data-aos-delay="700">
+          </div>
+        </div>
+      </div>
+     
+    <hr>
+    
+    <div class="container-fluid contact-us" style="height: 100vh" data-aos="flip-left" data-aos-delay="600" data-aos-duration="700">
+      <div class="cover-photo" style="height:100%" >
+        <div class="row">
+          <div class="col-sm contact-form" data-aos="fade" data-aos-delay="1100" data-aos-duration="600">
+            <h1>ADDRESS:</h1>
+            <h3>200 E Granada Blvd</h3>
+            <h3>Ormond Beach, Florida 32176</h3>
+            <hr>
+          </div>
+          <div class="col-sm contact-form" data-aos="fade" data-aos-delay="1900" data-aos-duration="900">
+            <h1>PHONE</h1>
+            <h3>(386) 944-9750</h3>
+            <hr>
+          </div>
+        </div>
+        <div class="row contact-form" data-aos="fade" data-aos-delay="2600" data-aos-duration="1800">
+          <div class="col-sm">
+              <h1>HOURS</h1>
+              <p>Mon-Thurs  7AM - 7PM</p>
+              <p>Friday  7AM - 10PM</p>
+              <p>Saturday  8AM - 10PM</p>
+              <p>Sunday  8AM - 2PM</p>
+          </div>
+        </div>
+      </div>
+    </div>
+            
+
+<!--Footer-->
+<footer class="page-footer font-small cyan lighten-2 pt-0">
+
+    <!--Footer Links-->
+    <div class="container">
+      <div class="container back-to-top" id="up-arrow">  
+      <a href="#">
+            <i class="fa fa-angle-up fa-5x ml-6" aria-hidden="true"></i>
+          </a>
+      </div>
+      <div class="container" id="up-arrow">  
+      
+          <p class="up-arrow-p">back to top</p>
+        </div>
+        <!--First row-->
+        <div class="row">
+
+            <!--First column-->
+            <div class="col-md-12 py-5">
+               
+                <div class="mb-5 flex-center">
+                  
+
+                    <!--Facebook-->
+                    <a href="https://www.facebook.com/donniesdonuts/" class="fb-ic" target="blank">
+                        <i class="fa fa-facebook fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Twitter-->
+                    <a href="https://twitter.com/donniesdonuts" class="tw-ic" target="blank">
+                        <i class="fa fa-twitter fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    <!--Instagram-->
+                    <a href="https://www.instagram.com/donniesdonuts/" class="ins-ic" target="blank">
+                        <i class="fa fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+                    </a>
+                    
+                    
+                    
+                </div>
+            </div>
+            <!--/First column-->
+        </div>
+        <!--/First row-->
+    </div>
+    <!--/Footer Links-->
+
+    <!--Copyright-->
+    <div class="footer-copyright py-3 text-center">
+        © 2018 Copyright:
+        <p>Donnie's Donuts</p>
+        
+    </div>
+    <!--/Copyright-->
+
+</footer>
+<!--/Footer-->
+                        
+
+      <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <script src="app.js"></script>
+      
+      <script src="/dist/aos.js"></script>
+      <script>
+    AOS.init();
+  </script>
+</body>
+</html>

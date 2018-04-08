@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@keyframes in {
+    from {font-size: 60px; color: black;}
+    to {font-size: 100px; color: white;}
+}
+
+
+ body{
+    margin: 0;
+    padding: 0;
+    background: rgb(255, 255, 255);
+   
+    
+}
+
+.intro{
+    padding: 0;
+    margin: 0;
+    background: url('./assets/donut-9.jpg');
+    height: 100vh;
+    size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 600px){
+    .jumbotron h1{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 5rem;
+    }
+}
+@media screen and (min-width: 600px){.jumbotron h1{
+    font-family: 'Amatic SC', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 200px;
+    font-weight: bold;
+    }
+}
+.jumbotron p{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+#intro-h2{
+animation-delay: 1s;
+
+}
+#intro-p{
+    animation-delay: 1.5s;
+    animation-duration: 1.5s;
+}
+    
+.jumbotron h2{
+    color: rgb(0, 0, 0);
+    font-size: 85px;
+    font-family: 'Amatic SC', cursive;
+    font-weight: bold;
+
+}
+
+.material-icons{
+    font-size: 60px;
+}
+
+.jumbotron a{
+    color: black;
+    
+}
+.jumbotron a:hover{
+    color: white;
+    animation: in 2s;
+    
+    animation-fill-mode: both
+    
+    
+}
+.about{
+    border: 1px solid black;
+    margin-bottom: 10%;
+    font-family: 'Amatic SC', cursive;
+}
+.logo{
+   margin-bottom: 20%;
+}
+.section-1{
+  margin-top: 10%;
+  
+}
+.section-1 p{
+    width: 100%;
+    border-bottom: 1px solid rgb(186, 186, 186);
+}
+#gallery h1{
+    font-family: 'Amatic SC', cursive;
+}
+.gallery{
+    padding: 5px;
+}
+
+.contact-us{
+   margin: 0;
+   padding:0;
+   background: url(/assets/cover.jpg) center center no-repeat;
+   margin-bottom:8px;
+}
+.cover-photo{
+    border-bottom: 2px solid black;
+}
+.contact-form{
+    color: white;
+    margin-top: 23px;
+}
+.page-footer{
+    border-top: 2px solid black;
+}
+
+.bg{
+    background-color: white;
+}
+#up-arrow{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
